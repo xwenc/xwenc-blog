@@ -5,6 +5,8 @@ article a {
     color: rgb(49, 49, 182);
     text-decoration: underline;
 }
+@import "./work-history.css";
+
 /* purgecss end ignore */
 @tailwind utilities;
 
