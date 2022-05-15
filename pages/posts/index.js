@@ -9,7 +9,7 @@ import Blogs from "../../components/blogs";
 export default function Index({ allPosts, profile, social, preview }) {
   return (
     <>
-      <Layout preview={preview} email={profile.email}>
+      <Layout preview={preview} email={profile ? profile.email : ""}>
         <Head>
           <title>Andy Xiong</title>
         </Head>

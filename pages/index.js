@@ -9,7 +9,7 @@ import MainContent from "../components/main-content/main-content";
 export default function Index({ history, social, profile, project, preview }) {
   return (
     <>
-      <Layout preview={preview} email={profile.email}>
+      <Layout preview={preview} email={profile ? profile.email : ""}>
         <Head>
           <title>Andy Xiong</title>
         </Head>

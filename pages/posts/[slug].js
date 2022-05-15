@@ -17,7 +17,7 @@ export default function Post({ profile, post, morePosts, preview }) {
   }
 
   return (
-    <Layout preview={preview} email={profile.email}>
+    <Layout preview={preview} email={profile ? profile.email : ""}>
       <Container>
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
