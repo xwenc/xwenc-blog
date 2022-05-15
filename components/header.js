@@ -5,7 +5,7 @@ import { FaEnvelope, FaBloggerB } from "react-icons/fa";
 
 const Header = ({ email }) => (
   <header className="flex items-center p-4 lg:px-8">
-    <div class="flex-1 lg:mt-4">
+    <div className="flex-1 lg:mt-4">
       <a href="/" className="inline-block rounded-full w-14 h-14 overflow-hidden">
         <Image src="/logo.png" layout="fixed" width={56} height={56} alt="" />
       </a>

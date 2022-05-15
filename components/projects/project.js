@@ -9,7 +9,7 @@ const Project = props => {
     <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
       {image && (
         <div className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0">
-          <Image src="/abc.jpg" alt={name} layout='fill' />
+          <Image src={image.asset.url} alt={name} width={640} height={320} layout='responsive' />
         </div>
       )}
       <div className="lg:flex-1">
