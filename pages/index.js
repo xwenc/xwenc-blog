@@ -15,15 +15,9 @@ export default function Index({ history, social, profile, project, preview }) {
         </Head>
         <Container>
           <Sidebar profile={profile} social={social} />
-          <MainContent
-            history={history}
-            profile={profile}
-            projects={project}
-          />
+          <MainContent history={history} profile={profile} projects={project} />
         </Container>
-        <Footer
-          name={profile.name}
-        />
+        <Footer name={profile.name} />
       </Layout>
     </>
   );
