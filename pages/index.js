@@ -11,7 +11,7 @@ export default function Index({ history, social, profile, project, preview }) {
     <>
       <Layout preview={preview} email={profile ? profile.email : ""}>
         <Head>
-          <title>Andy Xiong</title>
+          <title>Andy Xiong personal web</title>
         </Head>
         <Container>
           <Sidebar profile={profile} social={social} />
